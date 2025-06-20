@@ -47,9 +47,9 @@ function playGame() {
             console.log(`Tie round ${round}! ${computerSelection} ties ${playerSelection}`);
         }
     }
-    while (playerWins < 3 && computerWins < 3);
+    while (playerWins < 2 && computerWins < 2);
 
-    if (playerWins === 3) {
+    if (playerWins === 2) {
         console.log(`You win the game! :D`)
     } else {
         console.log(`You lose the game! D:`)
